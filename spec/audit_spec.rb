@@ -5,6 +5,7 @@ describe "Audit" do
     jim = user.name
     jim.first_name = "Jim"
     jim.last_name = "Abc"
+    jim.learn 
     expect(user.first_name).to eq("Jim")
   end
 
