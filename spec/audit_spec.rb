@@ -3,7 +3,7 @@ require "spec_helper"
 describe "Audit" do
   it "has a first name" do
     jim = user.name
-    user.first_name = "Tracy"
+    jim.first_name = "Jim"
     expect(user.first_name).to eq("Tracy")
   end
 
