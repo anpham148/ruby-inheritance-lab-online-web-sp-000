@@ -22,6 +22,6 @@ more_knowledge = avi.teach
 
 steve.learn(some_knowledge)
 steve.learn(more_knowledge)
-binding.pry
+
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.last}' from Avi"
